@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+.header {
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.header-title {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    background-color: aqua;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.header-block {
+    display: flex;
+    height: 100px;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.block-res{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+
+}
+
+.answer{
+    display: inline;
+    padding: 0 20px;
+    border: 1px solid red;
+    background-color: palegoldenrod;
+}
+
+.notes{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+}
